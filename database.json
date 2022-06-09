@@ -1,0 +1,461 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Lucifer",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isStaff": true
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "email": "pengwing@gmail.com",
+      "fullName": "Benedict Cumbersnatch",
+      "isStaff": true,
+      "id": 8
+    },
+    {
+      "email": "pika@chu.com",
+      "fullName": "Jo Schmoe",
+      "isStaff": false,
+      "id": 9
+    },
+    {
+      "fullName": "TestBoi Jones",
+      "email": "testing@test.com",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "fullName": "Ryan Gosling",
+      "email": "lala@lalala.com",
+      "isStaff": true,
+      "id": 11
+    }
+  ],
+  "customers": [
+    {
+      "address": "2802 Zula Locks",
+      "loyaltyNumber": "678910",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "loyaltyNumber": 54321,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "loyaltyNumber": 66666,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "address": "1 Nakatomi Plaza",
+      "loyaltyNumber": "7777",
+      "userId": 9
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "2000-06-02",
+      "payRate": 72.47,
+      "userId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "startDate": "2020-08-12",
+      "payRate": 97.39,
+      "userId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "startDate": "2021-12-25",
+      "payRate": 29.45,
+      "userId": 6,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "startDate": "2025-01-01",
+      "payRate": 42,
+      "userId": 7,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "startDate": "2021-8-25",
+      "payRate": 5000,
+      "userId": 8,
+      "locationId": 3
+    },
+    {
+      "startDate": "2022-12-01",
+      "payRate": 50,
+      "userId": 10,
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "startDate": "2022-06-15",
+      "payRate": 30000,
+      "userId": 11,
+      "locationId": 2,
+      "id": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "124 Havelock Ave",
+      "squareFootage": 500
+    },
+    {
+      "id": 2,
+      "address": "777 Fifth Avenue",
+      "squareFootage": 3000
+    },
+    {
+      "id": 3,
+      "address": "123 Broadway",
+      "squareFootage": 100
+    },
+    {
+      "id": 4,
+      "address": "Online",
+      "squareFootage": "infinite"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Fudge Whipple Bar",
+      "typeId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "FightMilk: The Bar",
+      "typeId": 1,
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Ol' Salty's Taffybox",
+      "typeId": 2,
+      "price": 2
+    },
+    {
+      "id": 4,
+      "name": "Gold-leaf Truffle Bar",
+      "typeId": 3,
+      "price": 250
+    },
+    {
+      "id": 5,
+      "name": "Old Time Hard-tack Crumblegum",
+      "typeId": 4,
+      "price": 1
+    },
+    {
+      "id": 6,
+      "name": "Candied Caviar with Powdered Mummy Liver and DragonHeart",
+      "typeId": 3,
+      "price": 2500
+    },
+    {
+      "name": "Captain McGillicuddy's Tooth-cracking WonderLumps",
+      "typeId": 2,
+      "price": 2,
+      "id": 7
+    },
+    {
+      "name": "CherryWine MoxieDrops",
+      "typeId": 2,
+      "price": 3,
+      "id": 8
+    },
+    {
+      "name": "Heisenberg's \"Special Blue\" (per gram)",
+      "typeId": 3,
+      "price": 500,
+      "id": 9
+    },
+    {
+      "name": "VodkaBar",
+      "typeId": 1,
+      "price": 5,
+      "id": 10
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Bar"
+    },
+    {
+      "id": 2,
+      "name": "Taffy"
+    },
+    {
+      "id": 3,
+      "name": "Premium"
+    },
+    {
+      "id": 4,
+      "name": "Gum"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productId": 3,
+      "locationId": 3,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "customerId": 3,
+      "productId": 3,
+      "locationId": 3,
+      "quantity": 3
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "productId": 1,
+      "locationId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "productId": 2,
+      "locationId": 2,
+      "quantity": 2
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "productId": 1,
+      "locationId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "customerId": 3,
+      "productId": 3,
+      "locationId": 3,
+      "quantity": 3
+    },
+    {
+      "customerId": 4,
+      "productId": 6,
+      "locationId": 4,
+      "quantity": "2",
+      "id": 7
+    },
+    {
+      "customerId": 3,
+      "productId": 5,
+      "locationId": 4,
+      "quantity": "5",
+      "id": 8
+    },
+    {
+      "customerId": 4,
+      "productId": 7,
+      "locationId": 4,
+      "quantity": "10",
+      "id": 9
+    },
+    {
+      "customerId": 4,
+      "productId": 2,
+      "locationId": 4,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "locationId": 4,
+      "quantity": "2",
+      "id": 11
+    },
+    {
+      "customerId": 4,
+      "productId": 8,
+      "locationId": 4,
+      "quantity": "5",
+      "id": 12
+    },
+    {
+      "customerId": 4,
+      "productId": 4,
+      "locationId": 4,
+      "quantity": "4",
+      "id": 13
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "locationId": 4,
+      "quantity": 1,
+      "id": 14
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 3
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "productId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 5,
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "productId": 6,
+      "locationId": 2
+    },
+    {
+      "id": 8,
+      "productId": 7,
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "productId": 8,
+      "locationId": 2
+    },
+    {
+      "id": 10,
+      "productId": 2,
+      "locationId": 3
+    },
+    {
+      "id": 11,
+      "productId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 12,
+      "productId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 13,
+      "productId": 1,
+      "locationId": 4
+    },
+    {
+      "id": 14,
+      "productId": 2,
+      "locationId": 4
+    },
+    {
+      "id": 15,
+      "productId": 3,
+      "locationId": 4
+    },
+    {
+      "id": 16,
+      "productId": 4,
+      "locationId": 4
+    },
+    {
+      "id": 17,
+      "productId": 5,
+      "locationId": 4
+    },
+    {
+      "id": 18,
+      "productId": 6,
+      "locationId": 4
+    },
+    {
+      "id": 19,
+      "productId": 7,
+      "locationId": 4
+    },
+    {
+      "id": 20,
+      "productId": 8,
+      "locationId": 4
+    },
+    {
+      "id": 21,
+      "productId": 9,
+      "locationId": 4
+    },
+    {
+      "productId": 10,
+      "locationId": 4,
+      "id": 22
+    }
+  ]
+}
